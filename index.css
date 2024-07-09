@@ -1,0 +1,108 @@
+/* styles.css */
+
+body, html {
+    margin: 0;
+    background-color: #e9edc9;
+    background-image: url(calc.jpg);
+}
+
+.container {
+    background: linear-gradient(to bottom, #003566 53%, #efeaea 47%);
+    padding-top: 30px;
+    height: auto;
+    width: 90%;
+    max-width: 700px;
+    margin: 70px auto;
+    text-align: center;
+    color: white;
+    font-size: 35px;
+    border-radius: 40px;
+    border: 3px solid rgb(27, 19, 36);
+}
+
+.container-2, .container-3, .container-4 {
+    margin-top: 6px;
+    width: 90%;
+    max-width: 650px;
+    height: auto;
+    background-color: white;
+    color: #5A537B;
+    font-size: 16px;
+    font-family: monospace;
+    font-weight: bold;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 10px auto;
+    border-radius: 10px;
+}
+
+#sol-1, #sol-2, #sol-3 {
+    font-size: 13px;
+    font-weight: bold;
+    color: #5A537B;
+}
+
+.lowbox {
+    margin-top: 20px;
+}
+
+button {
+    width: 100px;
+    height: 40px;
+    margin-top: 20px;
+    font-size: medium;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    color: #003566;
+    background-color: #ffffff;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #d1d1d1;
+}
+
+input {
+    background-color: #003566;
+    height: 60px;
+    width: 94px;
+    border-radius: 4px;
+    font-size: 45px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 900;
+    border: 1px solid white;
+    color: aliceblue;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 600px) {
+    .container {
+        width: 100%;
+        margin: 20px auto;
+        font-size: 24px;
+    }
+
+    input {
+        width: 70px;
+        font-size: 30px;
+        height: 50px;
+    }
+
+    button {
+        width: 80px;
+        height: 30px;
+        font-size: small;
+    }
+
+    .container-2, .container-3, .container-4 {
+        width: 100%;
+        margin: 10px auto;
+        font-size: 14px;
+    }
+
+    #sol-1, #sol-2, #sol-3 {
+        font-size: 12px;
+    }
+}
